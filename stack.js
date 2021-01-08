@@ -36,7 +36,15 @@ class Stack {
     };
 }
 
+// Create new Stack
+let items = ['George', 'Darren', 'Ramil', 'Victor'];
+
+let newStack = new Stack;
+
+items.map(item => newStack.push(item));
+
 module.exports = {
     Stack,
-    _Node
+    _Node,
+    newStack
 }
